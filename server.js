@@ -73,6 +73,10 @@ app.get("/rest/getAllUsers", (req, res) => {
     res.send(userData)
    });
 
+app.get("/", (req, res) => {
+  res.send("🚀 Hello from Integration Ninjas! Use /graphql for GraphQL or /rest/getAllUsers for REST");
+});
+
 app.listen(PORT, () => {
   console.log("Server running");
 });
