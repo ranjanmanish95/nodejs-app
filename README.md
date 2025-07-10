@@ -1,4 +1,4 @@
-# Nodejs app with rest and graphql example
+# Nodejs app with test of azure workflow 
 
 An example of GraphQL queries/mutations with Node and Express js.
 
